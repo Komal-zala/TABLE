@@ -1,0 +1,33 @@
+<html> 
+<head> 
+</head> 
+<body >
+ <script >
+
+     function abc()
+     {
+	       var i;
+	       
+		               var   a=document.getElementsByName("a");
+           var b=""
+				
+				
+				for(i=0;i<2;i++)
+				{
+				
+	
+				   if(a[i].checked==true)
+				  {
+				      b=b+a[i].value
+				   }
+				}
+				
+				alert(b);
+     }	 
+</script>
+
+<input type="checkbox" value="1" name=a>1
+<input type="checkbox" value="2" name=a>2
+        <input type="button" value="okkk"  onclick=abc()>
+</body> 
+</html> 

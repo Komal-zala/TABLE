@@ -1,0 +1,25 @@
+<html>
+<body>
+ <script>
+ 
+function abc()
+{
+var a=document.getElementsByName("a");
+var b="";
+for (var i=0;i<4;i++)
+{
+if(a[i].checked==true)
+{
+b=b+a[i].value
+}
+}
+alert(b)
+}
+</script>
+<input type="checkbox" value="cricket" name=a>cricket
+<input type="checkbox" value="football" name=a>football
+<input type="checkbox" value="hockey" name=a>hockey
+<input type="checkbox" value="chess" name=a>chess
+<input type="button" value="ok" onclick=abc()>
+</body>
+</html>
